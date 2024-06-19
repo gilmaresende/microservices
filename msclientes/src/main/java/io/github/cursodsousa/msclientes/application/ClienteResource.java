@@ -4,6 +4,7 @@ import io.github.cursodsousa.msclientes.application.representation.ClienteSabeRe
 import io.github.cursodsousa.msclientes.domain.Cliente;
 import io.github.cursodsousa.msclientes.servico.ClienteService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,15 +15,17 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("clientes")
+//@Slf4j
 public class ClienteResource {
 
-  @Autowired
-  private ClienteService service;
+    @Autowired
+    private ClienteService service;
 
-//    @GetMapping
-//    public String status() {
-//        return "ok";
-//    }
+    @GetMapping
+    public String status() {
+        System.out.println("Obtendo o status do microservice de clientes");
+        return "ok";
+    }
 
     @PostMapping
     public ResponseEntity save(@RequestBody ClienteSabeRequest request) {
@@ -32,7 +35,7 @@ public class ClienteResource {
         return ResponseEntity.created(headerLocation).build();
     }
 
-    @GetMapping
+    @GetMapping(params = "cpf")
     public ResponseEntity<Cliente> dadosCliente(@RequestParam("cpf") String cpf) {
         var cliente = service.findByCpf(cpf);
         if (cliente.isEmpty()) {
