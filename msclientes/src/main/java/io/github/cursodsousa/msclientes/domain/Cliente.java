@@ -1,8 +1,5 @@
 package io.github.cursodsousa.msclientes.domain;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @Entity
