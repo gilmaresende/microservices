@@ -15,15 +15,15 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("clientes")
-//@Slf4j
+@RequiredArgsConstructor
 public class ClienteResource {
 
-    @Autowired
-    private ClienteService service;
+    private final ClienteService service;
 
     @GetMapping
     public String status() {
-        System.out.println("Obtendo o status do microservice de clientes");
+        String msg = "Obtendo o status do microservice de clientes";
+        System.out.println(msg);
         return "ok";
     }
 
