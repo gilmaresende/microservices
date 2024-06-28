@@ -1,0 +1,36 @@
+2024-06-28 20:45:23.400  INFO 16328 --- [restartedMain] i.g.c.m.MsavaliadorcreditoApplication    : Starting MsavaliadorcreditoApplication using Java 21.0.3 on DESKTOP-U8TCNTT with PID 16328 (C:\_data\_projetos\microservices\msavaliadorcredito\target\classes started by gilmar in C:\_data\_projetos\microservices\msavaliadorcredito)
+2024-06-28 20:45:23.404  INFO 16328 --- [restartedMain] i.g.c.m.MsavaliadorcreditoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-06-28 20:45:23.568  INFO 16328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-28 20:45:23.569  INFO 16328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-28 20:45:26.254  INFO 16328 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0188a46b-1529-3b09-bf10-fadee28ddadf
+2024-06-28 20:45:28.514  INFO 16328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-06-28 20:45:28.544  INFO 16328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-28 20:45:28.545  INFO 16328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-06-28 20:45:28.929  INFO 16328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-28 20:45:28.930  INFO 16328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5360 ms
+2024-06-28 20:45:29.454  INFO 16328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-28 20:45:29.631  INFO 16328 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2024-06-28 20:45:29.862  INFO 16328 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2024-06-28 20:45:31.972  INFO 16328 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-06-28 20:45:32.218  WARN 16328 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-28 20:45:32.362  INFO 16328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62943 (http) with context path ''
+2024-06-28 20:45:32.366  INFO 16328 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62943
+2024-06-28 20:45:32.378  INFO 16328 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-28 20:45:32.962  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-06-28 20:45:33.003  INFO 16328 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-06-28 20:45:33.085  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-06-28 20:45:33.085  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-06-28 20:45:33.085  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-06-28 20:45:33.085  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-06-28 20:45:33.086  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-06-28 20:45:33.086  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-06-28 20:45:33.086  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-06-28 20:45:34.590  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-06-28 20:45:34.597  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-06-28 20:45:34.604  INFO 16328 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-06-28 20:45:34.618  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1719618334616 with initial instances count: 2
+2024-06-28 20:45:34.625  INFO 16328 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSAVALIADORCREDITO with eureka with status UP
+2024-06-28 20:45:34.627  INFO 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1719618334627, current=UP, previous=STARTING]
+2024-06-28 20:45:34.644  INFO 16328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:b04e0f3b91e00995db9459fb24ee79fe: registering service...
+2024-06-28 20:45:34.697  INFO 16328 --- [restartedMain] i.g.c.m.MsavaliadorcreditoApplication    : Started MsavaliadorcreditoApplication in 12.664 seconds (JVM running for 14.286)
+2024-06-28 20:45:35.078  INFO 16328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:b04e0f3b91e00995db9459fb24ee79fe - registration status: 204

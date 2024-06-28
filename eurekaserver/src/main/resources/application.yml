@@ -1,12 +1,12 @@
-sprin:
+spring:
   application:
     name: eurekaserver
   security:
     basic:
       enabled: true
     user:
-      name: ms-curso-microservice1
-      password: e1sciumrmsc-v-rioeorsc
+      name: admin
+      password: admin
 
 server:
   port: 8761

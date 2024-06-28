@@ -16,6 +16,7 @@ import java.net.URI;
 @RestController
 @RequestMapping("clientes")
 @RequiredArgsConstructor
+@Slf4j
 public class ClienteResource {
 
     private final ClienteService service;
@@ -23,7 +24,7 @@ public class ClienteResource {
     @GetMapping
     public String status() {
         String msg = "Obtendo o status do microservice de clientes";
-        System.out.println(msg);
+        log.info(msg);
         return "ok";
     }
 

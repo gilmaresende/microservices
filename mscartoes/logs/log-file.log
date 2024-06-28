@@ -1,0 +1,48 @@
+2024-06-28 20:45:31.136  INFO 9892 --- [restartedMain] i.github.mscartoes.MscartoesApplication  : Starting MscartoesApplication using Java 21.0.3 on DESKTOP-U8TCNTT with PID 9892 (C:\_data\_projetos\microservices\mscartoes\target\classes started by gilmar in C:\_data\_projetos\microservices\mscartoes)
+2024-06-28 20:45:31.140  INFO 9892 --- [restartedMain] i.github.mscartoes.MscartoesApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-06-28 20:45:31.397  INFO 9892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-28 20:45:31.398  INFO 9892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-28 20:45:35.281  INFO 9892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-28 20:45:36.353  INFO 9892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 982 ms. Found 2 JPA repository interfaces.
+2024-06-28 20:45:37.203  INFO 9892 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cae92566-1875-39ac-a056-b9fc7c1291bf
+2024-06-28 20:45:38.843  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-06-28 20:45:38.863  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-28 20:45:38.864  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-06-28 20:45:39.113  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-28 20:45:39.114  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7714 ms
+2024-06-28 20:45:39.190  INFO 9892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-28 20:45:39.551  INFO 9892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-28 20:45:39.574  INFO 9892 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1e6f8255-55be-43e1-a44e-c6c4b3e854d8'
+2024-06-28 20:45:39.964  INFO 9892 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-28 20:45:40.155  INFO 9892 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2024-06-28 20:45:40.674  INFO 9892 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-28 20:45:41.143  INFO 9892 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-28 20:45:42.699  INFO 9892 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-28 20:45:42.731  INFO 9892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-28 20:45:44.002  WARN 9892 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-28 20:45:45.837  WARN 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-28 20:45:46.085  INFO 9892 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-06-28 20:45:46.461  WARN 9892 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-28 20:45:46.651  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62954 (http) with context path ''
+2024-06-28 20:45:46.658  INFO 9892 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62954
+2024-06-28 20:45:46.671  INFO 9892 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-28 20:45:47.024  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-06-28 20:45:47.033  INFO 9892 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-06-28 20:45:47.093  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-06-28 20:45:47.093  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-06-28 20:45:47.094  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-06-28 20:45:47.094  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-06-28 20:45:47.094  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-06-28 20:45:47.094  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-06-28 20:45:47.095  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-06-28 20:45:48.014  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-06-28 20:45:48.019  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-06-28 20:45:48.027  INFO 9892 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-06-28 20:45:48.046  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1719618348044 with initial instances count: 2
+2024-06-28 20:45:48.051  INFO 9892 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCARTOES with eureka with status UP
+2024-06-28 20:45:48.052  INFO 9892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1719618348052, current=UP, previous=STARTING]
+2024-06-28 20:45:48.057  INFO 9892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:d7c72648153c807bc6660ed8792c349d: registering service...
+2024-06-28 20:45:48.070  INFO 9892 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-06-28 20:45:48.298  INFO 9892 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2f9fe92b:0/SimpleConnection@9c6206f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62960]
+2024-06-28 20:45:48.385  INFO 9892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:d7c72648153c807bc6660ed8792c349d - registration status: 204
+2024-06-28 20:45:48.475  INFO 9892 --- [restartedMain] i.github.mscartoes.MscartoesApplication  : Started MscartoesApplication in 18.981 seconds (JVM running for 21.641)
