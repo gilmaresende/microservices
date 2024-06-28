@@ -1,6 +1,12 @@
 sprin:
   application:
     name: eurekaserver
+  security:
+    basic:
+      enabled: true
+    user:
+      name: ms-curso-microservice1
+      password: e1sciumrmsc-v-rioeorsc
 
 server:
   port: 8761
