@@ -262,3 +262,17 @@ javax.persistence.NonUniqueResultException: query did not return a unique result
 2024-06-28 20:46:03.925  INFO 11624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:2fdfb9947fd02099e7c20ebca0fa6122: registering service...
 2024-06-28 20:46:03.976  INFO 11624 --- [restartedMain] i.g.c.msclientes.MsclientesApplication   : Started MsclientesApplication in 19.204 seconds (JVM running for 21.381)
 2024-06-28 20:46:04.133  INFO 11624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:2fdfb9947fd02099e7c20ebca0fa6122 - registration status: 204
+2024-06-28 20:51:03.040  INFO 11624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-06-28 20:52:25.655  INFO 11624 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLIENTES with eureka with status DOWN
+2024-06-28 20:52:25.656  INFO 11624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1719618745656, current=DOWN, previous=UP]
+2024-06-28 20:52:25.657  INFO 11624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:2fdfb9947fd02099e7c20ebca0fa6122: registering service...
+2024-06-28 20:52:25.678  INFO 11624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:2fdfb9947fd02099e7c20ebca0fa6122 - registration status: 204
+2024-06-28 20:52:25.693  INFO 11624 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-28 20:52:25.694  INFO 11624 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-28 20:52:25.924  WARN 11624 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2024-06-28 20:52:25.925  INFO 11624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-28 20:52:25.928  INFO 11624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-28 20:52:25.932  INFO 11624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-06-28 20:52:28.938  INFO 11624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-06-28 20:52:28.954  INFO 11624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:2fdfb9947fd02099e7c20ebca0fa6122 - deregister  status: 200
+2024-06-28 20:52:28.962  INFO 11624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

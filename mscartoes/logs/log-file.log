@@ -46,3 +46,19 @@
 2024-06-28 20:45:48.298  INFO 9892 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2f9fe92b:0/SimpleConnection@9c6206f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62960]
 2024-06-28 20:45:48.385  INFO 9892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:d7c72648153c807bc6660ed8792c349d - registration status: 204
 2024-06-28 20:45:48.475  INFO 9892 --- [restartedMain] i.github.mscartoes.MscartoesApplication  : Started MscartoesApplication in 18.981 seconds (JVM running for 21.641)
+2024-06-28 20:50:47.102  INFO 9892 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-06-28 20:52:22.082  INFO 9892 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCARTOES with eureka with status DOWN
+2024-06-28 20:52:22.082  INFO 9892 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1719618742082, current=DOWN, previous=UP]
+2024-06-28 20:52:22.083  INFO 9892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:d7c72648153c807bc6660ed8792c349d: registering service...
+2024-06-28 20:52:22.106  INFO 9892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:d7c72648153c807bc6660ed8792c349d - registration status: 204
+2024-06-28 20:52:22.130  INFO 9892 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-06-28 20:52:22.732  INFO 9892 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-06-28 20:52:22.782  INFO 9892 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-28 20:52:22.784  INFO 9892 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-28 20:52:23.010  WARN 9892 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2024-06-28 20:52:23.011  INFO 9892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-28 20:52:23.013  INFO 9892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-28 20:52:23.014  INFO 9892 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-06-28 20:52:26.018  INFO 9892 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-06-28 20:52:26.033  INFO 9892 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:d7c72648153c807bc6660ed8792c349d - deregister  status: 200
+2024-06-28 20:52:26.043  INFO 9892 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
