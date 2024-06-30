@@ -1,0 +1,32 @@
+2024-06-30 18:15:56.962  INFO 21156 --- [main] i.g.mscartoes.MscartoesApplicationTests  : Starting MscartoesApplicationTests using Java 17.0.10 on DESKTOP-U8TCNTT with PID 21156 (started by gilmar in C:\_data\_projetos\microservices\proto-curso-ms\mscartoes)
+2024-06-30 18:15:56.973  INFO 21156 --- [main] i.g.mscartoes.MscartoesApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-06-30 18:15:59.132  INFO 21156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-30 18:15:59.394  INFO 21156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 240 ms. Found 2 JPA repository interfaces.
+2024-06-30 18:15:59.912  INFO 21156 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=387c43a0-69ef-35ed-bf45-f81b3d328d34
+2024-06-30 18:16:00.895  INFO 21156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-30 18:16:01.297  INFO 21156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-30 18:16:01.448  INFO 21156 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-30 18:16:01.562  INFO 21156 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-06-30 18:16:01.891  INFO 21156 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-30 18:16:02.120  INFO 21156 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-30 18:16:03.278  INFO 21156 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-30 18:16:03.292  INFO 21156 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-30 18:16:04.761  WARN 21156 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-30 18:16:10.094  INFO 21156 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-06-30 18:16:12.200  INFO 21156 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-06-30 18:16:12.225  INFO 21156 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-06-30 18:16:12.474  WARN 21156 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-30 18:16:12.496  INFO 21156 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2024-06-30 18:16:12.659  INFO 21156 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [${RABBITMQ_SERVER}:5672]
+2024-06-30 18:16:12.666  INFO 21156 --- [main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.UnknownHostException: Este host não é conhecido (${RABBITMQ_SERVER})
+2024-06-30 18:16:12.679  INFO 21156 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [${RABBITMQ_SERVER}:5672]
+2024-06-30 18:16:12.724  INFO 21156 --- [main] i.g.mscartoes.MscartoesApplicationTests  : Started MscartoesApplicationTests in 17.747 seconds (JVM running for 19.658)
+2024-06-30 18:16:13.205  INFO 21156 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-30 18:16:13.208  INFO 21156 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCARTOES with eureka with status DOWN
+2024-06-30 18:16:13.214  INFO 21156 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-06-30 18:16:13.214  INFO 21156 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-06-30 18:16:13.228  INFO 21156 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2024-06-30 18:16:13.232  INFO 21156 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-30 18:16:13.233  INFO 21156 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-30 18:16:13.243  INFO 21156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-30 18:16:13.245  INFO 21156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

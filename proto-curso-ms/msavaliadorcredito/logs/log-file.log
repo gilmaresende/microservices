@@ -1,0 +1,13 @@
+2024-06-30 18:15:32.280  INFO 13452 --- [main] g.c.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 17.0.10 on DESKTOP-U8TCNTT with PID 13452 (started by gilmar in C:\_data\_projetos\microservices\proto-curso-ms\msavaliadorcredito)
+2024-06-30 18:15:32.291  INFO 13452 --- [main] g.c.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-06-30 18:15:34.993  INFO 13452 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ca70ee76-fc44-33a3-a81d-b703b090ff1d
+2024-06-30 18:15:36.411  INFO 13452 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2024-06-30 18:15:36.615  INFO 13452 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2024-06-30 18:15:41.811  INFO 13452 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-06-30 18:15:43.845  INFO 13452 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-06-30 18:15:43.875  INFO 13452 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-06-30 18:15:44.028  WARN 13452 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-30 18:15:44.057  INFO 13452 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2024-06-30 18:15:44.185  INFO 13452 --- [main] g.c.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 13.906 seconds (JVM running for 15.617)
+2024-06-30 18:15:45.339  INFO 13452 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-30 18:15:45.341  INFO 13452 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
