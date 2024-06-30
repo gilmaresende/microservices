@@ -3,7 +3,6 @@ package io.github.cursodsousa.msavaliadorcredito.application;
 import io.github.cursodsousa.msavaliadorcredito.application.ex.DadosClientesNotFoundException;
 import io.github.cursodsousa.msavaliadorcredito.application.ex.ErroComunicacaoMicroservicesException;
 import io.github.cursodsousa.msavaliadorcredito.application.ex.ErroSolicitacaoCartaoException;
-import io.github.cursodsousa.msavaliadorcredito.domain.DadosSolicitacaoEmissaoCartao;
 import io.github.cursodsousa.msavaliadorcredito.domain.SituacaoCliente;
 import io.github.cursodsousa.msavaliadorcredito.model.DadosAvaliacao;
 import io.github.cursodsousa.msavaliadorcredito.model.ProtocoloSolicitacaoCartao;
